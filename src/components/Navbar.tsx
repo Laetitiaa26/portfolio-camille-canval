@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import { CameraIcon, ChevronDownIcon, CloseIcon, MenuIcon } from "./Icons";
+import { ChevronDownIcon, CloseIcon, LogoMarkIcon, MenuIcon } from "./Icons";
 
 const NAV_LINKS = [
   { label: "Accueil", href: "/" },
@@ -17,7 +17,7 @@ export default function Navbar() {
     <header className="fixed inset-x-0 top-0 z-50 border-b border-white/10 bg-ink/90 backdrop-blur">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-5 py-4 sm:px-8">
         <Link to="/" className="flex items-center gap-2">
-          <CameraIcon className="h-7 w-7 text-gold" />
+          <LogoMarkIcon className="h-7 w-7 text-gold" />
           <span className="font-display text-lg font-semibold leading-none tracking-wide">
             CAMILLE
             <span className="block text-[0.6rem] font-sans font-medium tracking-[0.35em] text-white/60">

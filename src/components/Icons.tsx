@@ -59,6 +59,16 @@ export function FiveHundredPxIcon({ className }: IconProps) {
   );
 }
 
+export function LogoMarkIcon({ className }: IconProps) {
+  return (
+    <svg viewBox="0 0 24 24" fill="none" className={className} aria-hidden="true">
+      <circle cx="12" cy="12" r="7.5" stroke="currentColor" strokeWidth="1.6" />
+      <circle cx="12" cy="12" r="4.3" stroke="currentColor" strokeWidth="1.6" />
+      <circle cx="12" cy="12" r="1.6" fill="currentColor" />
+    </svg>
+  );
+}
+
 export function CameraIcon({ className }: IconProps) {
   return (
     <svg viewBox="0 0 24 24" fill="none" className={className} aria-hidden="true">
