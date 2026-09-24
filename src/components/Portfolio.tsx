@@ -349,7 +349,7 @@ export default function Portfolio() {
             }`}
           >
             {FILTER_LABELS[filter]}
-            {active === filter && <span className="absolute -bottom-[25px] left-0 h-[2px] w-full bg-gold" />}
+            {active === filter && <span className="absolute -bottom-1 left-0 h-[2px] w-full bg-gold" />}
           </button>
         ))}
       </div>
